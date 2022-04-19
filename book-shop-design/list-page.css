@@ -1,0 +1,86 @@
+.list-title-size{
+    font-size: 13px ;
+}
+.form-check-label{
+    margin-top:8px!important;
+}
+.list-color{
+    color:rgb(0, 0, 0);
+}
+.page-position{
+    position: relative;
+    top:50px;
+    font-size:14px;
+    color:rgba(146, 146, 146, 0.753);
+    left: 10px;
+}
+.vl {
+    border-left: 1px solid rgb(129, 129, 129);
+    height: 2050px;
+  }
+  .book-image{
+    max-height: 200px;
+    max-width: 130px;
+    margin:auto;
+    margin-top: 2rem;
+    box-shadow: 3px 5px 18px #73ff0080;
+  }
+  .book-list-card-bg2{
+      max-height: 360px;
+      max-width: 200px;
+    background-color: rgba(255, 234, 223, 0.205) !important;
+}
+
+ .like-book-1{
+    position:absolute;
+    right: 15px;
+    top:20px;
+    cursor: pointer;
+ }
+.card-title{
+    position: relative;
+    bottom:20px;
+    
+    
+}
+.title-color{
+    color:rgb(56, 0, 82);
+}
+.btn-size{
+    font-size: 10px !important;
+    position: relative;
+    bottom: 10px !important;;
+    
+}
+.star-position{
+    font-size:12px;
+    position:relative;
+    right: 50px;
+    bottom:15px;
+    
+}
+.price{
+    position: relative;
+    bottom:15px;
+    color: rgb(255, 123, 0);
+   
+}
+  .select-size{
+      width:200px ;
+      margin-left:950px;
+  }
+  .search-size{
+      font-size:13px;
+      margin-left:2px;
+  }
+  .price-size{
+      font-size:14px;
+      margin-top:6px;
+  }
+  .language{
+    text-align: justify;
+  }
+.cat-bg{
+    
+    background-image:linear-gradient(to right ,#ffdb792e,rgba(255, 208, 175, 0.55)) ;
+}

@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assests/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assests/fontawesome/css/all.css" />
+    <link rel="stylesheet" href="./detail.css">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+    <title>Document</title>
+  </head>
+  <body class="p-6">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="assests/image/logoo.png"
+            alt="Book Shop Logo"
+            width="30"
+            height="34"
+          />
+          Book Shop
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >E-Books</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BLOGS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">E-COURSE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">TUTORIALS</a>
+            </li>
+            <li class="nav-item align-self-center mb-1">|</li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SIGN IN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link c-dark" href="#">SIGN UP</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="container-fluid">
+      <div class="row bg-white">
+                       <!-- SLIDER-->
+        <div class="col-3 bg-white   ">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active shadow p-3 mb-2 mt-2 bg-body rounded">
+                <img
+                  src="assests/image/book4.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item shadow p-3 mb-2 mt-2 bg-body rounded">
+                <img
+                  src="assests/image/book4-back.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+                                     <!-- BOOK INFO-->
+        <div class="col-6 bg-white">
+          <div class="card-body d-flex flex-column ">
+            <h5 class="fs-6 " style="color: rgb(15, 15, 15)">
+              <strong>(Un)bound: Five Years of Asterisms, An Aster(ix) Anthology</strong>
+              Hardcover – Illustrated, October 6, 2020
+              <p class="text mt-2">
+                by <a href="#" class="text-reset name">by Kate Siber  (Author)</a>
+              </p>
+            </h5>
+            <div class=" mb-2 ">
+                <i class="fa-solid fa-star" style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></i>
+            </div>
+            
+              <p class="book-info">
+                "In 2013 when we started Aster(ix), we didn't know what we were committing ourselves to, but for the past five years the journal has been fueled with urgency, love and desire for a space that could house our wild tongue, imagination and vision..."
+                Aster(ix) Journal's Winter 2018 Issue, (Un)bound: Five Years of Asterisms, collects our favorite writing from the Asterisms section of the online journal, writing that embodies the spirit of Aster(ix) five years into our extraordinary adventure. </p>
+                                          <!--ICON -->
+            <div class="book-info-icon">
+            <div class="icon-items-f ">
+              <p>Page length</p>
+              <i class="fa-regular fa-file fa-2x"></i>
+            <strong class="mt-2">240 pages</strong>
+          </div>
+          <div class="icon-items-f w3-xlarge">
+            <p>Language</p>
+            <i class="fa-solid fa-file fa-2x"></i>
+              <strong class="mt-2">English</strong>
+            </div>
+            <div class="icon-items-f ">
+              <p>Publisher</p>
+              <i class="fa-solid fa-city fa-2x "></i>
+              <strong class="mt-2">Blue Sketch Press</strong>
+            </div>
+            <div class="icon-items-f">
+              <p>Publication date</p>
+              <i class="fa-regular fa-calendar-days fa-2x"></i>
+              <strong class="mt-2">December 30, 2018 </strong>
+            </div>
+            <div class="icon-items-f">
+              <p>Dimensions</p>
+              <i class="fa-solid fa-maximize fa-2x"></i>
+              <strong class="mt-2">6 x 0.47 x 9 inches </strong>
+            </div>
+          </div>
+          </div>
+         </div>
+                                     <!-- PRICE INFO-->
+          <div class="col-3 bg-white border border-2 rounded ">
+             <p clas="price "style="color: #ba4121"> $29.99</p>
+             <p class="info-size">$20.64 Shipping & Import Fees Deposit to Turkey <a href="#" class="text-reset name details-btn">Details</p></a>
+             <p class="info-size">Delivery <strong>Thursday, March 17.</strong>  Order within </p><p class="time-color "><strong>23 hrs 44 mins</strong> </p>
+             <p class="info-size">Or fastest delivery<br> <strong>February 23 - March 11</strong> </p>
+             <div class="">
+                <i class="fa-solid fa-location-dot"></i>
+               <div class="text mx-1">
+                <a href="#" class="text-reset name details-btn">Delivery to Turkey</p></a>
+               </div>
+             </div>
+             <strong class="stock-info">In Stock.</strong><br>
+              <p class="mx-5 text-center">Quantity:
+              <input class="w-25 " type="number"  id="quantity" name="quantity" min="1" max="5" ></p> 
+               <div class=" text-center mt-3 ">
+                <a href="./add-to-card.html" class="btn btn-light rounded-pill shadow px-3 bg-warning w-50 ">Add to Card</a> <br>
+                <a href="./detail.html" class="buy-button btn btn-light rounded-pill shadow px-3 mt-2 w-50">Buy Now</a>
+               </div>
+               <div class="">
+                <i class="mt-4 fa-solid fa-lock"></i>
+               <div class="text mx-1">
+                <a href="#" class="text-reset name details-btn"> Secure transaction</p></a>
+               </div>
+             </div>
+               
+               
+              
+            </form>
+          </div>
+        </div>
+      </div>
+                                      <!-- SIMILAR BOOK SLIDER -->
+       <div class="similar-book w-25">
+         <h8>SIMILAR BOOKS</h8>
+       </div>
+      <div class="container-fluid bg-white  mt-4">
+        <div class="row">
+          <div class="col-sm-12 ">
+            
+            <div id="inam" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                   <div class="container">
+                     <div class="row">
+                        <div class="col-sm-12 col-lg-4 ">
+                          <i class="fa-regular fa-heart like-book unliked"></i>
+                         <div class="card mt-5  " style="width: 250px;">
+                         
+                           <img src="assests/image/book4.jpg" class="card-img-top border-size">
+                           <div class="card-body2 ">
+                             <h4 class="card-title mb-0">Black Cake</h4>
+                             <p class="card-text mb-2">In this moving debut novel, two estranged siblings deal with their mother’s death and her hidden past—a journey of discovery that takes them from the Caribbean to London to California and ends with her famous black cake.</p>
+                             <div class="card-icon">
+                              <i class="fa-solid fa-star   " style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></i>
+                              <span class="">4,5</span> 
+                              
+                             </div>
+                             <p class="sb-price mt-5 "> $22.90 </p>
+                              <button type="button" class="btn btn-warning ">BUY</button>                            
+                            </div>                         
+                         </div>
+                       </div>
+                       <div class="col-sm-12 col-lg-4   ">
+                        <i class="fa-regular fa-heart like-book unliked"></i>
+                         <div class="card mt-5  " style="width: 250px; ">
+                          
+                           <img src="assests/image/book5.jpg" class="card-img-top border-size img-hi">
+                           <div class="card-body2">
+                             <h4 class="card-title mb-0 long-title">People We Meet.. on Vacation</h4>
+                             <p class="card-text mb-0">From theNew York Times bestselling author ofBeach Read comesa sparkling new novel that will leave you with the warm, hazy afterglow usually reserved for the best vacations.  </p>
+                             <div class="card-icon">
+                              <i class="fa-solid fa-star" style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></i>
+                              <span >4,8</span> 
+                             </div>
+                            
+                             <p class="sb-price mt-5"> $32.99 </p> 
+                             <button type="button" class="btn btn-warning">BUY</button>                             
+                            </div>                           
+                          </div>
+                        </div>
+                       <div class="col-sm-12 col-lg-4 ">
+                        <i class="fa-regular fa-heart like-book unliked"></i>
+                         <div class="card mt-5" style="width: 250px; ">
+                           <img src="assests/image/book6.jpg" class="card-img-top border-size">
+                           <div class="card-body2">
+                             <h4 class="card-title mb-0 long-title">Bicycling with B...terflies: My 10,201-Mile Journey Following the Monarch Migration</h4>
+                             <p class="card-text text-start mb-0">Sara Dykman made history when she became the first person to bicycle alongside monarch butterflies on their storied annual migration a round-trip adventure that included three countries and more than 10,000 miles.</p>
+                             <div class="card-icon">
+                              <i class="fa-solid fa-star" style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></i>
+                              <span>3,5</span>  
+                             </div>
+                             <p class="sb-price mt-5"> $23.99 </p> 
+                             <button type="button" class="btn btn-warning">BUY</button>
+                            </div>
+                          </div>                         
+                        </div>                       
+                     </div>                     
+                   </div>                
+                </div>
+                <div class="carousel-item ">
+                   <div class="container ">
+                     <div class="row ">
+                       <div class="col-sm-12 col-lg-4 ">
+                        <i class="fa-regular fa-heart like-book unliked"></i>
+                         <div class="card mt-5 "style="width: 250px; ">
+                           <img src="assests/image/book8.jpg" class="card-img-top border-size">
+                           <div class="card-body2">
+                             <h4 class="card-title mb-0 ">DOMINICANA</h4>
+                             <p class="card-text mb-0">
+                              In bright, musical prose that reflects the energy of New York City, Angie Cruz's Dominicana is a vital portrait of the immigrant experience and the timeless coming-of-age story of a young woman finding her voice in the world.</p>
+                              <div class="card-icon">
+                                <i class="fa-solid fa-star" style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i>
+                                <span class="">2,8</span>  
+                               </div>
+                               <p class="sb-price mt-5"> $25.99 </p> 
+                              <button type="button" class="btn btn-warning">BUY</button>                             
+                           </div>  
+                         </div>                         
+                       </div>
+                       <div class="col-sm-12 col-lg-4">
+                        <i class="fa-regular fa-heart like-book unliked"></i>
+                         <div class="card mt-5"style="width: 250px; " >
+                           <img src="assests/image/dvm1.jpg" class="card-img-top border-size">
+                           <div class="card-body2">
+                             <h4 class="card-title long-title mb-0">The French Disp...atch (149e N 12)</h4>
+                             <p class="card-text mb-0 ">The French Dispatch brings to life a collection of stories from the final issue of an American magazine published in a fictional 20th-century French city. </p>
+                             <div class="card-icon ">
+                              <i class="fa-solid fa-star" style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></i>
+                              <span class="">3,2</span>  
+                             </div>
+                             <p class="sb-price mt-5"> $18.55 </p> 
+                             <button type="button" class="btn btn-warning">BUY</button>                             
+                           </div>       
+                         </div>                         
+                       </div>
+                       <div class="col-sm-12 col-lg-4">
+                        <i class="fa-regular fa-heart like-book unliked"></i>
+                         <div class="card mt-5 "style="width: 250px; " >
+                           <img src="assests/image/dvm2.jpg" class="card-img-top border-size ">
+                           <div class="card-body2">
+                             <h4 class="card-title mb-0">Wahala: A Novel</h4>
+                             <p class="card-text mb-0">An incisive and exhilarating debut novel following three Anglo-Nigerian best friends and the lethally glamorous fourth woman who infiltrates their group—the most unforgettable girls since Carrie, Miranda, Charlotte, and Samantha. </p>
+                             <div class="card-icon">
+                              <i class="fa-solid fa-star   " style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></i>
+                              <span class="">4,3</span>  
+                             </div>
+                             <p class="sb-price mt-5"> $15.00 </p> 
+                             <button type="button" class="btn btn-warning">BUY</button>                             
+                           </div>                          
+                         </div>                        
+                       </div>                      
+                     </div>                    
+                   </div>                 
+               
+                  </div>   
+
+                  <a href="#inam" class="carousel-control-prev" data-slide="prev">
+                    <span class="carousel-control-prev-icon  "></span>
+                  </a>
+                  <a href="#inam" class="carousel-control-next  " data-slide="next">
+                    <span class="carousel-control-next-icon   "></span>
+                  </a>       
+              </div>
+            </div>
+              
+            
+            
+          </div>
+          
+        </div>
+        
+      </div>
+      
+
+    </main>
+    
+    <div class="container">
+      <footer class="py-5">
+        <div class="d-flex justify-content-between">
+          <div class="">
+            <h5 class="footer-title">LEARN MORE</h5>
+            <ul class="nav flex-column mt-4">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >TOUR</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >NEW FEATURES</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >CHANGELOG</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >CUSTOMERS</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >ENTERPRISE</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >PRICING & PRICE</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="">
+            <h5 class="footer-title">About</h5>
+            <ul class="nav flex-column mt-4">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >BLOG</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >COMPANY</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >JOBS</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="">
+            <h5 class="footer-title">SUPPORT</h5>
+            <ul class="nav flex-column mt-4">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >COMMUNITY</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >CONTACT US</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >UXPIN TUTORIALS</a
+                >
+              </li>
+            </ul>
+          </div>
+          
+          <div class="">
+            <h5 class="footer-title">FEATURES</h5>
+            <ul class="nav flex-column mt-4">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >MOCKUPS</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >prototypıng</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >Photoshop ımport</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >sketch ımport</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="">
+            <h5 class="footer-title">FREEBIES</h5>
+            <ul class="nav flex-column mt-4">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >MOCKUPS</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >Freebies</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >e-books</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >UI kıts</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >templates</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center border-top pt-5">
+          <img src="./assests/image/logoo.png" width="64" height="64" alt="" />
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="link-dark" href="#"
+                ><svg class="bi" width="24" height="24">
+                  <use xlink:href="#twitter"></use></svg></a>
+            </li>
+            <li class="ms-3">
+              <a class="link-dark" href="#"
+                ><svg class="bi" width="24" height="24">
+                  <use xlink:href="#instagram"></use></svg></a>
+            </li>
+            <li class="ms-3">
+              <a class="link-dark" href="#"
+                ><svg class="bi" width="24" height="24">
+                  <use xlink:href="#facebook"></use></svg></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script src="./assests/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assests/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assests/fontawesome/css/all.css" />
+    <link rel="stylesheet" href="./detail.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./add-to-card.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <title>ADD-TO-CARD</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="assests/image/logoo.png"
+              alt="Book Shop Logo"
+              width="30"
+              height="34"
+            />
+            Book Shop
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >E-Books</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">BLOGS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">E-COURSE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">TUTORIALS</a>
+              </li>
+              <li class="nav-item align-self-center mb-1">|</li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SIGN IN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link c-dark" href="#">SIGN UP</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <main class="container-fluid   ">
+        <section class="row mx-0    ">  
+              <div class="container-fluid all-bg-color ">
+                <div>
+               <div class="col-8 mt-5 bg-white shadow-lg ">
+                <h5 class="shopping-cart-title mx-3 "><strong>SHOPPING CART</strong> </h5>
+                <p class="items-select mx-3">No items selected. <a href="#" class="text-reset name"> Select all items
+                </a>
+                </p>
+               <h5 class="text-end price-color">Price</h5>
+               
+               <div class="border-top line-color "></div>
+               
+                </div>
+                <div class="row mx-0">
+                  
+                     <div class="col-sm-2 bg-white ">
+                      <div class="form-check ">
+                        <input class="form-check-input form-check-input-position" type="checkbox" value="" id="flexCheckDefault">
+                      <img src="assests/image/book4.png" class="img-thumbnail   mt-4 mb-4 mx-4 shadow" alt="..."> 
+                    
+                    </div>
+                     </div>
+                     <div class="col-sm-6 bg-white ">  
+                       
+                      <div class="card-body d-flex flex-column shadow mt-3  ">
+                      <h5 class="fs-6 mt-1 " style="color: rgb(15, 15, 15)">
+                        (Un)bound: Five Years of Asterisms, An Aster(ix) Anthology
+                        <span class="price-info"><strong>$29.00</strong></span>
+                      </h5>
+                      
+                       <p class="author-font-size mb-1"> by  Kate Siber  (Author)</p>
+                        <p class="book-cover mb-1"><strong>Hardcover </strong> </p>
+                        <p class="stock-info2 mb-1">In Stock.</p>
+                       <p class="shipping-font-size mb-1">Eligible for FREE Shipping <strong>&</strong> <a href="#" class="text-reset name stock-info2">Free Returns</p> </a>
+                        <div class="form-check mx-1">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label gift-info" for="flexCheckDefault">
+                              This is a gift <a href="#" class="text-reset name stock-info2">Learn More</a>
+                          </label>
+                        </div>
+                        <p class=" author-font-size mt-2">Quantity:
+                        <input class=" text-center mx-2 " type="number"  id="quantity" name="quantity" min="1" max="5" >
+                        
+                        <a href="#" class="text-reset name stock-info2 mx-2 ">Delete</a>
+                        
+                        <a href="#" class="text-reset name stock-info2 mx-2  ">Save for later</a>
+                      
+                        <a href="#" class="text-reset name stock-info2 mx-2 ">Compare with similar items</a>
+                      </p> 
+                     </div> 
+                      
+                </div>
+                                               <!--ORDER SİDE-->
+                <div class="col-sm-3 mx-5 bg-white border rounded-3 shadow-lg ">
+                  <h3 class="text-center order-summary"><strong>Order Summary</strong></h3>
+                  <p class="order-info mt-4 mx-3">Subtotal $29.00</p>
+                  <p class="order-info mt-4 mx-3">Shipping $0.00</p>
+                  <hr class="mt-5">
+                  <p class="total-info mt-3 mx-4"><strong>Total $29.00</strong> </p>
+                  <a href="#" class="buy-button2 btn rounded-pill shadow  mb-2  w-50">Buy</a>
+
+                </div>
+                 
+                  
+                <div class="border-bottom line-color  col-8 border rounded "></div>
+                
+              </div>
+               
+                <div class="col-8 shadow bg-white">
+                  <p class="text-end price-font-size mb-1  ">Subtotal (1 item): <strong>$29.99</strong></p>
+                  <div class="border-bottom line-color  "></div>
+                </div>
+                                   <!--Payment Methods-->
+                <div class="row mx-0 ">
+                  <div class="col-5 mt-5 bg-white rounded  pm-bg ">
+                    <h5 class=" mt-5 payment-method">Payment Methods</h5>
+                    <div class="payment-icon-size">
+                    <i class="fa-brands fa-cc-visa payment-method-icon "></i>
+                    <i class="fa-brands fa-cc-mastercard payment-method-icon mx-2"></i>
+                    <i class="fa-brands fa-cc-jcb payment-method-icon mx-2"></i>
+                    <i class="fa-brands fa-cc-amex payment-method-icon mx-2 mb-5"></i>
+                  </div>
+                  
+                  </div>
+                  <div class="col-3 mt-5 bg-white shadow-lg border rounded pm-bg ">
+                    <i class="fa-regular fa-circle-check mt-5  mx-1  "></i>
+                    <span><strong class="buyer-protection ">Buyer Protection</strong></span>
+                    <p class="mt-3 buyer-protection-size ">Get full refund if the item is not as described or if is not delivered.</p>
+                    </div>
+                    <div class=" mt-5 right-side bg-white">
+                    
+                      <img src="assests/image/newbook1.jpg" class="right-book-size   ">
+                    
+                      <img src="assests/image/newbook2.jpg" class=" right-book-size mt-2" alt="...">
+                      <img src="assests/image/newbook3.jpg" class=" right-book-size mt-2" alt="...">
+                    </div>
+                    <div class="mt-5 bg-white right-side2 shadow-lg ">
+                      <h19 class="book-title-right"><a href="#" class=" text-reset name  ">A Tree Grow In Brooklyn</a></h19>
+                      <h19 class="right-font-size"><a href="#" class=" text-reset name  "> >Betty Smith</a></h19><br>
+                      <i class="fa-solid fa-star" style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></i>
+                     3,5
+                      <br><h8 class="right-font-size">Paperback</h8>
+                      <p class="right-side-price"><strong>$14.99</strong></p>
+                     <a href="./add-to-card.html" class=" right-font-size btn btn-light rounded-pill shadow  bg-warning mx-5  ">Add to Card</a> 
+                     
+                     <h19 class="book-title-right "><a href="#" class=" text-reset name  ">Red Mountain</a></h19><br>
+                      <h19 class="right-font-size"><a href="#" class=" text-reset name  "> >Boo Walker</a></h19><br>
+                      <i class="fa-solid fa-star" style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i>
+                        2,8
+                      <br><h8 class="right-font-size">Paperback</h8><br>
+                      <span class="right-side-price"><strong>$4.99</strong></span>
+                     <a href="./add-to-card.html" class=" right-font-size btn btn-light rounded-pill shadow  bg-warning mx-5  ">Add to Card</a> 
+
+                     <h19 class="book-title-right "><a href="#" class=" text-reset name  ">Where I come From</a></h19><br>
+                     <h19 class="right-font-size"><a href="#" class=" text-reset name  "> >Rıck Bragg</a></h19><br>
+                     <i class="fa-solid fa-star   " style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></i>
+                      4,5 
+                     <br><h8 class="right-font-size">Paperback</h8><br>
+                     <span class="right-side-price"><strong>$10.00</strong></span>
+                    <a href="./add-to-card.html" class=" right-font-size btn btn-light rounded-pill shadow  bg-warning mx-5  ">Add to Card</a> 
+                    </div>
+                    
+                                                         <!-- BOOK SLIDE-->
+                    <div class="col-8  slide-position border border-2 rounded bg-white slide-bg-size">
+                  
+                      <div id="inam" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                             <div class="container">
+                               <div class="row">
+                                  <div class="col-3 book-slider-border " >
+                                    <i class="fa-regular fa-heart like-book1 "></i>
+                                   <div class="card1 mt-5  " >
+                                   
+                                     <img src="assests/image/bookslide1.jpg" class="card-img-top border-size">
+                                     <div class="card-body3 ">
+                                       <h4 class="card-title mb-0"><a href="#" class="text-decoration-none">Hiking Log Book: Hiker's Journal</a></h4>
+                                       <p class="card-text mb-0"></p>
+                                       <div class="card-icon">
+                                        <i class="fa-solid fa-star   " style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></i>
+                                        <span class="">4,5</span> 
+                                        <p>Paperback</p>
+                                        
+                                       </div>
+                                       <p class="sb-price-card mt-5 slide-price-color "> $6.90 </p>
+                                                                
+                                      </div>                         
+                                   </div>
+                                 </div>
+                                 <div class="col-3  ">
+                                  <i class="fa-regular fa-heart like-book1 "></i>
+                                   <div class="card1 mt-5  " style="width: 250px; ">
+                                    
+                                     <img src="assests/image/bookslide2.jpg" class="card-img-top border-size img-hi">
+                                     <div class="card-body3">
+                                       <h4 class="card-title mb-0 "><a href="#" class="text-decoration-none">On My Best Day: Poetry and Prose for the Soul</a></h4>
+                                       <p class="card-text mb-0"></p>
+                                       <div class="card-icon">
+                                        <i class="fa-solid fa-star" style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></i>
+                                        <span >4,8</span> 
+                                        <p>Paperback</p>
+                                       </div>
+                                      
+                                       <p class="sb-price-card mt-5 slide-price-color"> $16.99 </p>
+                                       
+                                                                 
+                                      </div>                           
+                                    </div>
+                                  </div>
+                                 <div class="col-3  ">
+                                  <i class="fa-regular fa-heart like-book1 "></i>
+                                   <div class="card1 mt-5  " style="width: 250px; ">
+                                    
+                                     <img src="assests/image/bookslide3.jpg" class="card-img-top border-size img-hi">
+                                     <div class="card-body3">
+                                       <h4 class="card-title mb-0 "><a href="#" class="text-decoration-none">A Tree Grows In Brooklyn by Betty Smith </a></h4>
+                                       <p class="card-text mb-0"></p>
+                                       <div class="card-icon">
+                                        <i class="fa-solid fa-star" style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></i>
+                                        <span >4,2</span> 
+                                        <p>Paperback</p>
+                                       </div>
+                                      
+                                       <p class="sb-price-card mt-5 slide-price-color"> $23.68 </p> 
+                                                                   
+                                      </div>                           
+                                    </div>
+                                  </div>
+                                  
+                                 <div class="col-3 ">
+                                  <i class="fa-regular fa-heart like-book1 "></i>
+                                   <div class="card1 mt-5" style="width: 250px; ">
+                                     <img src="assests/image/bookslide4.jpg" class="card-img-top border-size">
+                                     <div class="card-body3">
+                                       <h4 class="card-title mb-0 "> <a href="#" class="text-decoration-none">Camping Adventure Notebook: My personal space to write daily affirmations for great moments and important people</a></h4>
+                                       <p class="card-text text-start mb-0"></p>
+                                       <div class="card-icon">
+                                        <i class="fa-solid fa-star" style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></i>
+                                        <span>3,5</span>  
+                                        <p>Paperback</p>
+                                       </div>
+                                       <p class="sb-price-card mt-5 slide-price-color"> $23.99 </p> 
+                                       
+                                      </div>
+                                    </div>                         
+                                  </div>                       
+                               </div>                     
+                             </div>                
+                          </div>
+                          <div class="carousel-item ">
+                             <div class="container ">
+                               <div class="row ">
+                                 <div class="col-3 ">
+                                  <i class="fa-regular fa-heart like-book1 "></i>
+                                   <div class="card1 mt-5 "style="width: 250px; ">
+                                     <img src="assests/image/bookslide5.jpg" class="card-img-top border-size">
+                                     <div class="card-body3">
+                                       <h4 class="card-title mb-0 "> <a href="#" class="text-decoration-none">Manifestation Journal for Black Women: Law of Attraction Techniques, Exercises and Tools</a></h4>
+                                       <p class="card-text mb-0"></p>
+                                        <div class="card-icon">
+                                          <i class="fa-solid fa-star" style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i>
+                                          <span class="">2,8</span> 
+                                          <p>Paperback</p> 
+                                         </div>
+                                         <p class="sb-price-card mt-5 slide-price-color"> $19.99 </p> 
+                                                               
+                                     </div>  
+                                   </div>                         
+                                 </div>
+                                 <div class="col-3">
+                                  <i class="fa-regular fa-heart like-book1 "></i>
+                                   <div class="card1 mt-5"  >
+                                     <img src="assests/image/bookslide6.jpg" class="card-img-top border-size">
+                                     <div class="card-body3">
+                                       <h4 class="card-title mb-0  "> <a href="#" class="text-decoration-none">The Mountain God Sleeps On Its Back</a></h4>
+                                       <p class="card-text mb-0"></p>
+                                       <div class="card-icon ">
+                                        <i class="fa-solid fa-star" style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></i>
+                                        <span class="">3,2</span>
+                                        <p>Paperback</p>  
+                                       </div>
+                                       <p class="sb-price-card mt-5 slide-price-color"> $18.55 </p> 
+                                                                 
+                                     </div>       
+                                   </div>                         
+                                 </div>
+                                 <div class="col-3">
+                                  <i class="fa-regular fa-heart like-book1 "></i>
+                                   <div class="card1 mt-5"  >
+                                     <img src="assests/image/bookslide7.jpg" class="card-img-top border-size">
+                                     <div class="card-body3">
+                                       <h4 class="card-title mb-0 "><a href="#" class="text-decoration-none">Rebellious Aging: A Self-help Guide for the Old Hippie at Heart</a></h4>
+                                       <p class="card-text mb-0 "> </p>
+                                       <div class="card-icon ">
+                                        <i class="fa-solid fa-star" style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></i>
+                                        <span class="">3,7</span>  
+                                        <p>Paperback</p>
+                                       </div>
+                                       <p class="sb-price-card mt-5 slide-price-color"> $15.99 </p> 
+                                                                 
+                                     </div>       
+                                   </div>                         
+                                 </div>
+                                 <div class="col-3">
+                                  <i class="fa-regular fa-heart like-book1 "></i>
+                                   <div class="card1 mt-5 "style="width: 250px; " >
+                                     <img src="assests/image/bookslide8.jpg" class="card-img-top border-size ">
+                                     <div class="card-body3">
+                                       <h4 class="card-title mb-0"> <a href="#" class="text-decoration-none">Mom, I Want to Hear Your Story: A Mother’s Guided Journal To Share Her Life & Her Love</a></h4>
+                                       <p class="card-text mb-0"></p>
+                                       <div class="card-icon">
+                                        <i class="fa-solid fa-star   " style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></i>
+                                        <span class="">4,3</span>  
+                                        <p>Paperback</p>
+                                       </div>
+                                       <p class="sb-price-card mt-5 slide-price-color "> $15.00 </p> 
+                                                                    
+                                     </div>                          
+                                   </div>                        
+                                 </div>                      
+                               </div>                    
+                             </div>                 
+                         
+                            </div>   
+          
+                            <a href="#inam" class="carousel-control-prev  " data-slide="prev">
+                              <span class="carousel-control-prev-icon carousel-control-position-left "></span>
+                            </a>
+                            <a href="#inam" class="carousel-control-next  " data-slide="next">
+                              <span class="carousel-control-next-icon  carousel-control-position"></span>
+                            </a>       
+                        </div>
+                      </div>
+                        
+                      
+                      
+                    </div>
+                  
+                </div>
+               
+              
+              </div>                             
+              </section>
+            </main>
+            <div class="container">
+              <footer class="py-5">
+                <div class="d-flex justify-content-between">
+                  <div class="">
+                    <h5 class="footer-title">LEARN MORE</h5>
+                    <ul class="nav flex-column mt-4">
+                      <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                          >TOUR</a
+                        >
+                      </li>
+                      <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                          >NEW FEATURES</a
+                        >
+                      </li>
+                      <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                          >CHANGELOG</a
+                        >
+                      </li>
+                      <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                          >CUSTOMERS</a
+                        >
+                      </li>
+                      <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                          >ENTERPRISE</a
+                        >
+                      </li>
+                      <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                          >PRICING & PRICE</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="">
+                    <h5 class="footer-title">About</h5>
+                    <ul class="nav flex-column mt-4">
+                      <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                          >BLOG</a
+                        >
+                      </li>
+                      <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                          >COMPANY</a
+                        >
+                      </li>
+                      <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                          >JOBS</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="">
+                    <h5 class="footer-title">SUPPORT</h5>
+                    <ul class="nav flex-column mt-4">
+                      <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                          >COMMUNITY</a
+                        >
+                      </li>
+                      <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                          >CONTACT US</a
+                        >
+                      </li>
+                      <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                          >UXPIN TUTORIALS</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <div class="">
+                    <h5 class="footer-title">FEATURES</h5>
+                    <ul class="nav flex-column mt-4">
+                      <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                          >MOCKUPS</a
+                        >
+                      </li>
+                      <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                          >prototypıng</a
+                        >
+                      </li>
+                      <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                          >Photoshop ımport</a
+                        >
+                      </li>
+                      <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                          >sketch ımport</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="">
+                    <h5 class="footer-title">FREEBIES</h5>
+                    <ul class="nav flex-column mt-4">
+                      <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                          >MOCKUPS</a
+                        >
+                      </li>
+                      <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                          >Freebies</a
+                        >
+                      </li>
+                      <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                          >e-books</a
+                        >
+                      </li>
+                      <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                          >UI kıts</a
+                        >
+                      </li>
+                      <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                          >templates</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-center border-top pt-5">
+                  <img src="./assests/image/logoo.png" width="64" height="64" alt="" />
+                  <ul class="list-unstyled d-flex">
+                    <li class="ms-3">
+                      <a class="link-dark" href="#"
+                        ><svg class="bi" width="24" height="24">
+                          <use xlink:href="#twitter"></use></svg></a>
+                    </li>
+                    <li class="ms-3">
+                      <a class="link-dark" href="#"
+                        ><svg class="bi" width="24" height="24">
+                          <use xlink:href="#instagram"></use></svg></a>
+                    </li>
+                    <li class="ms-3">
+                      <a class="link-dark" href="#"
+                        ><svg class="bi" width="24" height="24">
+                          <use xlink:href="#facebook"></use></svg></a>
+                    </li>
+                  </ul>
+                </div>
+              </footer>
+            </div>
+              
+            
+            
+
+
+
+
+
+
+      
+    
+</body>
+</html>

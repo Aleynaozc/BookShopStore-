@@ -1,0 +1,149 @@
+body{
+    font-family:'Poppins', sans-serif;
+}
+    
+.nav-link {
+    color: #a19c9c !important;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  
+  .nav-link.active {
+    color: #78e7a9 !important;
+  }
+  
+  .c-dark{
+   color: #000 !important;
+  }
+.carousel-caption{
+    position: absolute;
+    bottom: 0rem;
+    color:#fff;
+    text-align: center;
+    width: 30vw;
+    margin-left: auto;
+    right: 29%;
+}
+.slider-img{
+   
+    height: 400px !important;
+}
+.slider1-titles{
+    background-color:#f9ebc5;
+    width: 300px;
+    position: relative;
+    left: 70px;
+}
+.slider2-titles{
+    background-color:#eec7a7;
+    width: 300px;
+    position: relative;
+    left: 70px;
+}
+.slider3-titles{
+    background-color:#fbe2b7;
+    width: 300px;
+    position: relative;
+    left: 70px;
+}
+.c-gray{
+    color:#dfe4e6;
+}
+.book-images{
+    max-height: 400px;
+    max-width: 150px;
+    margin:auto;
+    margin-top: 2rem;
+    box-shadow: 3px 5px 18px #888888;
+}
+.like-book{
+    position:absolute;
+    right: 40px;
+    top:20px;
+    cursor: pointer;
+}
+
+.liked{
+    color:red;
+}
+.unliked{
+    color:gray;
+}
+.card{
+    border:none;
+}
+.card-title{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.book-list-card-bg{
+    background-color: hsl(210, 33%,99%) !important;
+}
+.load-more
+{
+    background-color: #00d664;
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border:none;
+    box-shadow: 0px 5px 10px #88888866;
+}
+.social-media-container{
+    border-top: 2px solid #4080ff;
+    box-shadow: 0px 5px 10px #88888866 ;
+    height:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.tw-colour{
+    border-top: 2px solid #63bffc;
+}
+.inst-colour{
+    border-top: 2px solid #8d39a3;
+}
+
+.social-media-button{
+    background-color: #4080ff;
+    color:white;
+    border-radius: 5px;
+}
+.social-media-button-fb:hover {
+    background-color: #4080ff;
+  }
+  .social-media-button-tw:hover {
+    background-color: #63bffc;
+  }
+  .social-media-button-inst:hover {
+    background-color: #8d39a3;
+  }
+  .slider-slogans{
+      background-color: #ffedce;
+  }
+  .footer-title{
+      color:#888888 !important;
+      font-weight: 700;
+      font-size: 20px;
+      text-transform: uppercase;
+  }
+  .footer-subtitle{
+   color: #000 !important;
+   font-size: 16px;
+   font-weight: 700;
+   text-transform: uppercase;
+  }
+  .similar-book{
+      text-align: center;
+      background-color: #8d39a3;
+  }
+  .load-more a {
+      text-decoration: none;
+      color:white;
+  }
+  

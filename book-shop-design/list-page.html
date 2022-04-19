@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assests/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assests/fontawesome/css/all.css" />
+    <link rel="stylesheet" href="./detail.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./list-page.css">
+    <link rel="stylesheet" href="./add-to-card.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <title>LIST-PAGE</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="assests/image/logoo.png"
+              alt="Book Shop Logo"
+              width="30"
+              height="34"
+            />
+            Book Shop
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >E-Books</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">BLOGS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">E-COURSE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">TUTORIALS</a>
+              </li>
+              <li class="nav-item align-self-center mb-1">|</li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SIGN IN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link c-dark" href="#">SIGN UP</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <main>
+          <div class="container-fluid">
+            <div class="row  ">
+             
+                <div class="col-2 cat-bg">
+                 
+                      <h5 class="mt-3 ">All Categories</h5>
+                      <h7><strong>Department</strong></h7>
+                     <ul class="list-title-size p-0"  style="list-style-type:none;" > 
+
+                     <div class="form-check  ">
+                       <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                       <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color"><li class="">Arts & Photography </li></a>
+                       </label>
+                      </div>
+                      <div class="form-check  ">
+                          <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color"><li class="">Biographies & Memoirs</li></a>
+                          </label>
+                      </div>
+                      <div class="form-check  ">
+                        <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color"> <li class="">Business & Money</li></a>
+                        </label>
+                     </div>
+                     <div class="form-check  ">
+                       <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color"><li class="">Calendars</li></a>
+                       </label>
+                      </div>
+                     <div class="form-check  ">
+                       <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color"><li class="">Computers & Technology</li></a>
+                        </label>
+                     </div>
+                      <div class="form-check  ">
+                       <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color"><li class="">Children's Books</li></a>
+                         </label>
+                      </div>
+                      <div class="form-check  ">
+                       <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                       <label class="form-check-label" for="flexCheckDefault"> <a href="#" class="text-decoration-none list-color"><li class="">Christian Books & Bibles</li></a>
+                       </label>
+                      </div>
+                     <div class="form-check  ">
+                       <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                       <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color"><li class="">Comics & Graphic Novels</li></a>
+                       </label>
+                     </div>
+                     <div class="form-check  ">
+                        <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                         <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color"><li class="">Cookbooks, Food & Wine</li></a>
+                         </label>
+                     </div>
+              <div class="form-check  ">
+                <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault"> 
+                <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color"><li class="">Crafts, Hobbies & Home</li></a>
+                </label>
+              </div>
+              <div class="form-check  ">
+                <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color"><li class="">Children's Books</li></a>
+                </label>
+              </div>
+              <div class="form-check  ">
+                <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color"><li class="">Christian Books & Bibles</li></a>
+                </label>
+              </div>
+              <div class="form-check  ">
+                <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color"><li class="">Comics & Graphic Novels</li></a>
+                </label>
+              </div>
+              <div class="form-check  ">
+                <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color"><li class="">Education & Teaching </li></a>
+                </label>
+              </div>
+              <div class="form-check  ">
+                <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color"><li class="">Engineering & Transportation</li></a>
+                </label>
+              </div>
+              <div class="form-check  ">
+                <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color"><li class="">Health, Fitness & Dieting</li></a>
+                </label>
+              </div>
+              <div class="form-check  ">
+                <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color"><li class="">History</li></a>
+                </label>
+              </div>
+              <div class="form-check  ">
+                <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color"><li class="">Humor & Entertainment</li></a>
+                </label>
+              </div>
+              <div class="form-check  ">
+                <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault"> 
+                <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color"><li class="">Laws</li></a>
+                </label>
+              </div>
+              <div class="form-check  ">
+                <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color"><li class="">LGBTQ+ Books</li></a>
+                </label>
+              </div>
+              <div class="form-check  ">
+                <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color"><li class="">Literature & Fiction</li></a>
+                </label>
+              </div>
+              <div class="form-check  ">
+                <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault"> <a href="#" class="text-decoration-none list-color"><li class="">Medical Books</li></a>
+                </label>
+              </div>
+              <div class="form-check  ">
+                <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color"><li class="">Mystery, Thriller & Suspense</li></a>
+                </label>
+              </div>
+              <div class="form-check  ">
+                <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault"> <a href="#" class="text-decoration-none list-color"><li class="">Parenting & Relationships</li></a>
+                </label>
+              </div> <div class="form-check  ">
+                <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color"><li class="">Politics & Social Sciences</li></a>
+                </label>
+              </div> <div class="form-check  ">
+                <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color"><li class="">Reference</li></a>   
+                </label>
+              </div> <div class="form-check  ">
+                <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault"> <a href="#" class="text-decoration-none list-color"><li class="">Religion & Spirituality</li></a>
+                </label>
+              </div>
+              <div class="form-check  ">
+                <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color"><li class="">Romance</li></a>
+                </label>
+              </div> 
+              <div class="form-check  ">
+                <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color"><li class="">Science & Math</li></a>
+                </label>
+              </div> 
+              <div class="form-check  ">
+                <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color"><li class="">Science Fiction & Fantasy</li></a>
+                </label>
+              </div> 
+              <div class="form-check  ">
+                <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color"><li class="">Self-Help</li></a>
+                </label>
+              </div>
+               <div class="form-check  ">
+                <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color"><li class="">Sports & Outdoors</li></a>
+                </label>
+              </div>
+              <div class="form-check  ">
+                <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color"><li class="">Teen & Young Adult</li></a>
+                </label>
+              </div>
+              <div class="form-check  ">
+                <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color"><li class="">Test Preparation</li></a>
+                </label>
+              </div>
+                      <div class="form-check  ">
+                        <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                         <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color"><li class="">Travel</li></a>
+                          </label>
+                      </div>
+  
+                     </ul>  
+                         <h7 ><strong>Author</strong> </h7>
+                   <div class="list-title-size" style="list-style-type:none;">
+                     <a href="#" class="text-decoration-none list-color"><li class=""></li>Mustafa Kemal Atatürk </a>
+                     <a href="#" class="text-decoration-none list-color"><li class="">Peter H. Diamandis</li></a>  
+                     <a href="#" class="text-decoration-none list-color"><li class="">Tony Robbins</li></a>  
+                     <a href="#" class="text-decoration-none list-color"><li class="">James Clear</li></a>   
+                     <a href="#" class="text-decoration-none list-color"><li class="">Colleen Hoover</li></a>   
+                     <a href="#" class="text-decoration-none list-color"><li class="">Myron M. Sheinfeld</li></a>              
+                     <a href="#" class="text-decoration-none list-color"><li class="">Peter Schweizer</li></a>
+                     <a href="#" class="text-decoration-none list-color"><li class="">Brené Brown</li></a>
+                     <a href="#" class="text-decoration-none list-color"><li class=""></li>Jack London </a>
+                     <a href="#" class="text-decoration-none list-color"><li class=""></li>William Shakespeare </a>
+                     <a href="#" class="text-decoration-none list-color"><li class=""></li>Charmaıne Wilkerson</a>
+                     <a href="#" class="text-decoration-none list-color"><li class=""></li>Emily Henry</a>
+                     <a href="#" class="text-decoration-none list-color"><li class=""></li>Angie Cruz</a>
+                     <a href="#" class="text-decoration-none list-color"><li class=""></li>Sara Dykman</a>
+                     <a href="#" class="text-decoration-none list-color"><li class=""></li>Nikki May</a>
+                     <a href="#" class="text-decoration-none list-color"><li class=""></li>Kate Siber</a>
+                   </div>
+                   <div class="language ">
+                                   <h7 ><strong >Language</strong> </h7>  
+                                   <div class="form-check mt-1">
+                                    <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color price-size"> English </a>
+                                    </label>
+                                   </div>
+                                   <div class="form-check">
+                                    <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color price-size"> German </a>
+                                    </label>
+                                   </div>
+                                   <div class="form-check  ">
+                                    <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color price-size"> French </a>
+                                    </label>
+                                   </div>
+                                   <div class="form-check  ">
+                                    <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color price-size"> Spanish </a>
+                                    </label>
+                                   </div>
+                                   <div class="form-check  ">
+                                    <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color price-size"> Japanese </a>
+                                    </label>
+                                   </div>
+                                   <div class="form-check  ">
+                                    <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color price-size"> Portuguese</a>
+                                    </label>
+                                   </div>
+                                   <div class="form-check  ">
+                                    <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color price-size"> Yiddish </a>
+                                    </label>
+                                   </div>
+                     </div>
+
+
+                                  <h7 ><strong >Price</strong> </h7>  
+                                  <form class="mt-2 mb-2" action="/url" method="GET">
+                                
+                                    <input class="w-25" type="text " name="first_name" placeholder="Min" required>
+                                    <span>-</span>
+                                    <input class="w-25" type="text" name="last_name" placeholder="Max" required>
+                                    <button class="search-size" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>  
+                                  </form>
+                                  <div class="form-check  ">
+                          <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color price-size"> $0-$10 </a>
+                          </label>
+                                  </div>
+                                  <div class="form-check  ">
+                          <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color price-size"> $10-$20 </a>
+                          </label>
+                                  </div>
+                                  <div class="form-check  ">
+                                    <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color price-size"> $20-$50 </a>
+                                    </label>
+                                   </div>
+                                   <div class="form-check  ">
+                                    <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault"><a href="#" class="text-decoration-none list-color price-size"> $50-$5000000 </a>
+                                    </label>
+                                   </div>            
+                                 <h7 ><strong>Avg. Customer Review</strong> </h7>
+                    <i class="fa-solid fa-star mt-2" style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></i>
+                    <a href="#" class="text-decoration-none list-title-size list-color">& Up</a>
+                    <i class="fa-solid fa-star   " style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i>
+                    <a href="#" class="text-decoration-none list-title-size list-color">& Up</a>
+
+                    <i class="fa-solid fa-star   " style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i>
+                    <a href="#" class="text-decoration-none list-title-size list-color">& Up</a>
+                    <i class="fa-solid fa-star   " style="color:rgb(255, 145, 2)" ><i class="fa-regular fa-star" ></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i>
+                    <a href="#" class="text-decoration-none list-title-size list-color">& Up</a>
+            
+                </div>
+             
+                <section class="col-10 bg-white">
+                
+                  <div class="vl">
+                    <a href="./index.html" class="text-decoration-none page-position">Home Page </a> 
+                    <span class="page-position">></span>
+                    <a href="#" class="text-decoration-none page-position">Learn More </a> 
+                    <select class="form-select form-select-sm select-size " aria-label=".form-select-sm example">
+                      <option selected>Featured</option>
+                      <option value="1">Price:Low to High</option>
+                      <option value="2">Price: High to Low</option>
+                      <option value="3">Avg.Customer Review</option>
+                      <option value="4">Newest Arrivals</option>
+                    </select>
+                    <section class="row">
+
+                    <div class="col-3 mt-5 p-3 mb-5">
+                      <div class="card book-list-card-bg2">
+                        <i class="fa-solid fa-heart like-book-1 liked"></i>
+                        <img
+                          src="assests/image/list1.jpg"
+                          class="card-img-top book-image"
+                          alt="..."
+                        />
+                        <div class="card-body d-flex flex-column align-items-center">
+                          
+                          <h4 class="card-title mb-0  "> <a href="#" class="text-decoration-none title-color">Don't Cry For Me</a></h4>
+                         
+                        
+                          <span class="star-position"><i class="fa-solid fa-star" style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></i> 4</span>
+                         <span class="price"> $15,99</span>
+                           
+                            <a href="./detail.html" class="btn btn-light btn-size rounded-pill shadow px-3 mb-5"><strong>BUY</strong></a>
+                         </div>
+                      </div>
+                    </div>
+
+                    <div class="col-3 mt-5 p-3 mb-5 ">
+                      <div class="card book-list-card-bg2">
+                        <i class="fa-solid fa-heart like-book-1 unliked"></i>
+                        <img
+                          src="assests/image/list2.jpg"
+                          class="card-img-top book-image"
+                          alt="..."
+                        />
+                        <div class="card-body d-flex flex-column align-items-center">
+                          <h4 class="card-title mb-0  "> <a href="#" class="text-decoration-none title-color">The Sweetness of Water </a></h4>
+                          <span class="star-position"><i class="fa-solid fa-star" style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-alt"></i></i> 4,56</span>
+                          <span class="price"> $5,99</span>
+                         
+                          <a href="./detail.html" class="btn btn-light btn-size rounded-pill shadow px-3 mb-5"><strong>BUY</strong></a>
+                         </div>
+                      </div>
+                    </div>
+
+                    <div class="col-3 mt-5 p-3 mb-5">
+                      <div class="card book-list-card-bg2">
+                        <i class="fa-solid fa-heart like-book-1 unliked"></i>
+                        <img
+                          src="assests/image/list3.jpg"
+                          class="card-img-top book-image"
+                          alt="..."
+                        />
+                        <div class="card-body d-flex flex-column align-items-center">
+                          <h4 class="card-title mb-0  "> <a href="#" class="text-decoration-none title-color">All Boys Aren't Blue</a></h4>
+                          <span class="star-position"><i class="fa-solid fa-star" style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-alt"></i></i> 4,97</span>
+                          <span class="price"> $10,59</span>
+                          
+                          <a href="./detail.html" class="btn btn-light btn-size rounded-pill shadow px-3 mb-5"><strong>BUY</strong></a>
+                         </div>
+                      </div>
+                    </div>
+
+
+                    <div class="col-3 mt-5 p-3 mb-5">
+                      <div class="card book-list-card-bg2">
+                        <i class="fa-solid fa-heart like-book-1 unliked"></i>
+                        <img
+                          src="assests/image/list4.jpg"
+                          class="card-img-top book-image"
+                          alt="..."
+                        />
+                        <div class="card-body d-flex flex-column align-items-center">
+                          <h4 class="card-title mb-0  "> <a href="#" class="text-decoration-none title-color">The Night and Its Moon </a></h4>
+                          <span class="star-position"><i class="fa-solid fa-star" style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star-half-alt"></i><i class="fa-regular fa-star"></i></i> 3,1</span>
+                          <span class="price"> $3,99</span>
+                          <a href="./detail.html" class="btn btn-light btn-size rounded-pill shadow px-3 mb-5"><strong>BUY</strong></a>
+                         </div>
+                      </div>
+                    </div>
+
+
+                    <div class="col-3 mt-5 p-3 mb-5">
+                      <div class="card book-list-card-bg2">
+                        <i class="fa-solid fa-heart like-book-1 unliked"></i>
+                        <img
+                          src="assests/image/list5.jpg"
+                          class="card-img-top book-image"
+                          alt="..."
+                        />
+                        <div class="card-body d-flex flex-column align-items-center">
+                          <h4 class="card-title mb-0  "> <a href="#" class="text-decoration-none title-color">Evocative Style </a></h4>
+                          <span class="star-position"><i class="fa-solid fa-star" style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star-half-alt"></i><i class="fa-regular fa-star"></i></i> 3,73</span>
+                          <span class="price"> $8,67</span>
+                          <a href="./detail.html" class="btn btn-light btn-size rounded-pill shadow px-3 mb-5"><strong>BUY</strong></a>
+                         </div>
+                      </div>
+                    </div>
+
+                    
+                    <div class="col-3 mt-5 p-3 mb-5">
+                      <div class="card book-list-card-bg2">
+                        <i class="fa-solid fa-heart like-book-1 unliked"></i>
+                        <img
+                          src="assests/image/list6.jpg"
+                          class="card-img-top book-image"
+                          alt="..."
+                        />
+                        <div class="card-body d-flex flex-column align-items-center">
+                          <h4 class="card-title mb-0  "> <a href="#" class="text-decoration-none title-color">Enchanted: A Coloring Book and a Colorful Journey Into a Whimsical Universe </a></h4>
+                          <span class="star-position"><i class="fa-solid fa-star" style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star-half-alt"></i><i class="fa-regular fa-star"></i></i> 3,34</span>
+                          <span class="price"> $4,99</span>
+                          <a href="./detail.html" class="btn btn-light btn-size rounded-pill shadow px-3 mb-5"><strong>BUY</strong></a>
+                         </div>
+                      </div>
+                    </div>
+
+                    
+                    <div class="col-3 mt-5 p-3 mb-5">
+                      <div class="card book-list-card-bg2">
+                        <i class="fa-solid fa-heart like-book-1 unliked"></i>
+                        <img
+                          src="assests/image/list7.jpg"
+                          class="card-img-top book-image"
+                          alt="..."
+                        />
+                        <div class="card-body d-flex flex-column align-items-center">
+                          <h4 class="card-title mb-0  "> <a href="#" class="text-decoration-none title-color">Secret Worlds</a></h4>
+                          <span class="star-position"><i class="fa-solid fa-star" style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-alt"></i></i> 4,34</span>
+                          <span class="price"> $12,43</span>
+                          <a href="./detail.html" class="btn btn-light btn-size rounded-pill shadow px-3 mb-5"><strong>BUY</strong></a>
+                         </div>
+                      </div>
+                    </div>
+
+                    
+                    <div class="col-3 mt-5 p-3 mb-5">
+                      <div class="card book-list-card-bg2">
+                        <i class="fa-solid fa-heart like-book-1 unliked"></i>
+                        <img
+                          src="assests/image/list8.jpg"
+                          class="card-img-top book-image"
+                          alt="..."
+                        />
+                        <div class="card-body d-flex flex-column align-items-center">
+                          <h4 class="card-title mb-0  "> <a href="#" class="text-decoration-none title-color">A Coloring Book of Psalms: An Inspirational Coloring Book for Adults to Uplift and encourges.</a></h4>
+                          <span class="star-position"><i class="fa-solid fa-star" style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-alt"></i></i> 4,43</span>
+                          <span class="price"> $13,54</span>
+                          <a href="./detail.html" class="btn btn-light btn-size rounded-pill shadow px-3 mb-5"><strong>BUY</strong></a>
+                         </div>
+                      </div>
+                    </div>
+
+                    
+                    <div class="col-3 mt-5 p-3 mb-5">
+                      <div class="card book-list-card-bg2">
+                        <i class="fa-solid fa-heart like-book-1 unliked"></i>
+                        <img
+                          src="assests/image/list9.jpg"
+                          class="card-img-top book-image"
+                          alt="..."
+                        />
+                        <div class="card-body d-flex flex-column align-items-center">
+                          <h4 class="card-title mb-0  "> <a href="#" class="text-decoration-none title-color">Stop Overthinking</a></h4>
+                          <span class="star-position"><i class="fa-solid fa-star" style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star" ></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i> 3</span>
+                          <span class="price"> $10,54</span>
+                          <a href="./detail.html" class="btn btn-light btn-size rounded-pill shadow px-3 mb-5"><strong>BUY</strong></a>
+                         </div>
+                      </div>
+                    </div>
+
+    
+                    <div class="col-3 mt-5 p-3 mb-5">
+                      <div class="card book-list-card-bg2">
+                        <i class="fa-solid fa-heart like-book-1 unliked"></i>
+                        <img
+                          src="assests/image/list10.jpg"
+                          class="card-img-top book-image"
+                          alt="..."
+                        />
+                        <div class="card-body d-flex flex-column align-items-center">
+                          <h4 class="card-title mb-0  "> <a href="#" class="text-decoration-none title-color">The Log from the Sea of..</a></h4>
+                          <span class="star-position"><i class="fa-solid fa-star" style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-alt"></i></i> 4,27</span>
+                          <span class="price"> $10,54</span>
+                          <a href="./detail.html" class="btn btn-light btn-size rounded-pill shadow px-3 mb-5"><strong>BUY</strong></a>
+                         </div>
+                      </div>
+                    </div>
+
+
+
+    
+                    <div class="col-3 mt-5 p-3 mb-5">
+                      <div class="card book-list-card-bg2">
+                        <i class="fa-solid fa-heart like-book-1 unliked"></i>
+                        <img
+                          src="assests/image/list11.jpg"
+                          class="card-img-top book-image"
+                          alt="..."
+                        />
+                        <div class="card-body d-flex flex-column align-items-center">
+                          <h4 class="card-title mb-0  "> <a href="#" class="text-decoration-none title-color">January River</a></h4>
+                          <span class="star-position"><i class="fa-solid fa-star" style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star-half-alt"></i><i class="fa-regular fa-star"></i></i> 3,21</span>
+                          <span class="price"> $10,54</span>
+                          <a href="./detail.html" class="btn btn-light btn-size rounded-pill shadow px-3 mb-5"><strong>BUY</strong></a>
+                         </div>
+                      </div>
+                    </div>
+
+                    <div class="col-3 mt-5 p-3 mb-5">
+                      <div class="card book-list-card-bg2">
+                        <i class="fa-solid fa-heart like-book-1 unliked"></i>
+                        <img
+                          src="assests/image/list12.jpg"
+                          class="card-img-top book-image"
+                          alt="..."
+                        />
+                        <div class="card-body d-flex flex-column align-items-center">
+                          <h4 class="card-title mb-0  "> <a href="#" class="text-decoration-none title-color">Look, Look Again</a></h4>
+                          <span class="star-position"><i class="fa-solid fa-star" style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-regular fa-star-half-alt" ></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i> 2,8</span>
+                          <span class="price"> $9,42</span>
+                          <a href="./detail.html" class="btn btn-light btn-size rounded-pill shadow px-3 mb-5"><strong>BUY</strong></a>
+                         </div>
+                      </div>
+                    </div>
+
+                    <div class="col-3 mt-5 p-3 mb-5">
+                      <div class="card book-list-card-bg2">
+                        <i class="fa-solid fa-heart like-book-1 unliked"></i>
+                        <img
+                          src="assests/image/list13.jpg"
+                          class="card-img-top book-image"
+                          alt="..."
+                        />
+                        <div class="card-body d-flex flex-column align-items-center">
+                          <h4 class="card-title mb-0  "> <a href="#" class="text-decoration-none title-color">The Reunion</a></h4>
+                          <span class="star-position"><i class="fa-solid fa-star" style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-regular fa-star-half-alt" ></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i> 2,2</span>
+                          <span class="price"> $9,42</span>
+                          <a href="./detail.html" class="btn btn-light btn-size rounded-pill shadow px-3 mb-5"><strong>BUY</strong></a>
+                         </div>
+                      </div>
+                    </div>
+                    <div class="col-3 mt-5 p-3 mb-5">
+                      <div class="card book-list-card-bg2">
+                        <i class="fa-solid fa-heart like-book-1 unliked"></i>
+                        <img
+                          src="assests/image/list14.jpg"
+                          class="card-img-top book-image"
+                          alt="..."
+                        />
+                        <div class="card-body d-flex flex-column align-items-center">
+                          <h4 class="card-title mb-0  "> <a href="#" class="text-decoration-none title-color">Somebody's Daughter</a></h4>
+                          <span class="star-position"><i class="fa-solid fa-star" style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star" ></i><i class="fa-regular fa-star-half-alt"></i><i class="fa-regular fa-star"></i></i> 3,8</span>
+                          <span class="price"> $19,42</span>
+                          <a href="./detail.html" class="btn btn-light btn-size rounded-pill shadow px-3 mb-5"><strong>BUY</strong></a>
+                         </div>
+                      </div>
+                    </div>
+                    <div class="col-3 mt-5 p-3 mb-5">
+                      <div class="card book-list-card-bg2">
+                        <i class="fa-solid fa-heart like-book-1 unliked"></i>
+                        <img
+                          src="assests/image/list15.jpg"
+                          class="card-img-top book-image"
+                          alt="..."
+                        />
+                        <div class="card-body d-flex flex-column align-items-center">
+                          <h4 class="card-title mb-0  "> <a href="#" class="text-decoration-none title-color">Mama Bear </a></h4>
+                          <span class="star-position"><i class="fa-solid fa-star" style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-regular fa-star-half-alt" ></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i> 2,8</span>
+                          <span class="price"> $9,42</span>
+                          <a href="./detail.html" class="btn btn-light btn-size rounded-pill shadow px-3 mb-5"><strong>BUY</strong></a>
+                         </div>
+                      </div>
+                    </div>
+                    <div class="col-3 mt-5 p-3 mb-5">
+                      <div class="card book-list-card-bg2">
+                        <i class="fa-solid fa-heart like-book-1 unliked"></i>
+                        <img
+                          src="assests/image/list16.jpg"
+                          class="card-img-top book-image"
+                          alt="..."
+                        />
+                        <div class="card-body d-flex flex-column align-items-center">
+                          <h4 class="card-title mb-0  "> <a href="#" class="text-decoration-none title-color">The Dog Walkers</a></h4>
+                          <span class="star-position"><i class="fa-solid fa-star" style="color:rgb(255, 145, 2)" ><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star" ></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></i> 5</span>
+                          <span class="price"> $6,99</span>
+                          <a href="./detail.html" class="btn btn-light btn-size rounded-pill shadow px-3 mb-5"><strong>BUY</strong></a>
+                         </div>
+                      </div>
+                    </div>
+
+                  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  </div>
+                  
+                </section>
+              </div>
+          </div>
+      </main>
+      <div class="container-fluid">
+        <footer class="py-5">
+          <div class="d-flex justify-content-between">
+            <div class="">
+              <h5 class="footer-title">LEARN MORE</h5>
+              <ul class="nav flex-column mt-4">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                    >TOUR</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                    >NEW FEATURES</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                    >CHANGELOG</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                    >CUSTOMERS</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                    >ENTERPRISE</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                    >PRICING & PRICE</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="">
+              <h5 class="footer-title">About</h5>
+              <ul class="nav flex-column mt-4">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                    >BLOG</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                    >COMPANY</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                    >JOBS</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="">
+              <h5 class="footer-title">SUPPORT</h5>
+              <ul class="nav flex-column mt-4">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                    >COMMUNITY</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                    >CONTACT US</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                    >UXPIN TUTORIALS</a
+                  >
+                </li>
+              </ul>
+            </div>
+            
+            <div class="">
+              <h5 class="footer-title">FEATURES</h5>
+              <ul class="nav flex-column mt-4">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                    >MOCKUPS</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                    >prototypıng</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                    >Photoshop ımport</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                    >sketch ımport</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="">
+              <h5 class="footer-title">FREEBIES</h5>
+              <ul class="nav flex-column mt-4">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                    >MOCKUPS</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                    >Freebies</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                    >e-books</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                    >UI kıts</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                    >templates</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center border-top pt-5">
+            <img src="./assests/image/logoo.png" width="64" height="64" alt="" />
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3">
+                <a class="link-dark" href="#"
+                  ><svg class="bi" width="24" height="24">
+                    <use xlink:href="#twitter"></use></svg></a>
+              </li>
+              <li class="ms-3">
+                <a class="link-dark" href="#"
+                  ><svg class="bi" width="24" height="24">
+                    <use xlink:href="#instagram"></use></svg></a>
+              </li>
+              <li class="ms-3">
+                <a class="link-dark" href="#"
+                  ><svg class="bi" width="24" height="24">
+                    <use xlink:href="#facebook"></use></svg></a>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+</body>
+</html>
